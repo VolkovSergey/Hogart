@@ -14,6 +14,17 @@
 @media only screen and (max-width : 768px) {
 	.top_links{
 		display: none;
+		background-color: #585d61;
+		margin-top: 15px;
+		position: absolute;
+		padding: 14px;
+		width: 100%;
+	}
+	.nav{
+		display: none;
+		margin-top: 0;
+		
+
 	}
 
 }
@@ -43,7 +54,12 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
+	.top_links{
+		display: inline-block !important;
+	}
+	.nav {
+		display: block !important;
+	}
 }
 
 /* Medium Devices, Desktops */
